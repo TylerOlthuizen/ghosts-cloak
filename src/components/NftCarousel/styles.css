@@ -1,0 +1,9 @@
+.carousel-item {
+  padding: 0 !important; /* Removes default padding */
+}
+
+.carousel-item img {
+  width: 100%; /* Ensures images fill the container */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes any extra space below the image */
+}

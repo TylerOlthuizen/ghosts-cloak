@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -13,22 +17,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  background-color: #242424;
 }
+
 
 h1 {
   font-size: 3.2em;
@@ -45,7 +39,9 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  cursor: url('/ghost-cursor.png'), default !important;
 }
+
 button:hover {
   border-color: #646cff;
 }
@@ -53,6 +49,23 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 600;
+  font-family: "Press Start 2P";
+}
+
+p, .cta {
+  font-family: "VT323";
+  font-size: 1.2em;
+}
+
+nav li a{
+  font-family: "VT323";
+  font-size: 1.2em;
+}
+
+
 
 @media (prefers-color-scheme: light) {
   :root {
