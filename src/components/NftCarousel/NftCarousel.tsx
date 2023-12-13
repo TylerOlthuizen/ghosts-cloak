@@ -57,8 +57,7 @@ export const NftCarousel = () => {
       autoPlay={true}
       autoPlaySpeed={2000}
       keyBoardControl={true}
-      customTransition="all .5"
-      transitionDuration={500}
+      transitionDuration={800}
       containerClass="carousel-container"
       removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
       itemClass="carousel-item"
