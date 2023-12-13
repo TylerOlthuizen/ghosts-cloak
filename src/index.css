@@ -39,7 +39,6 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-  cursor: url('/ghost-cursor.png'), default !important;
 }
 
 button:hover {
