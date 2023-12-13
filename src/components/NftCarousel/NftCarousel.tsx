@@ -55,7 +55,7 @@ export const NftCarousel = () => {
       ssr={true}
       infinite={true}
       autoPlay={true}
-      autoPlaySpeed={4000}
+      autoPlaySpeed={2000}
       keyBoardControl={true}
       customTransition="all .5"
       transitionDuration={500}
