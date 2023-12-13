@@ -9,17 +9,17 @@ export const Hero = () => {
           Discover and collect exclusive Ghosts Cloak NFTs on the Solana
           blockchain.
         </p>
-        <div className="flex space-x-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-3 justify-center">
           <a
             href="https://magiceden.io/marketplace/ghosts_cloak"
-            className="bg-purple-600 text-white hover:bg-purple-800 font-bold py-2 px-4 rounded cta"
+            className="bg-purple-600 text-white hover:bg-purple-800 font-bold py-3 px-4 rounded cta"
             target="_blank"
           >
             Buy on Magic Eden
           </a>
           <a
             href="https://www.tensor.trade/trade/ghosts_cloak"
-            className="bg-blue-600 text-white hover:bg-blue-800 font-bold py-2 px-4 rounded cta"
+            className="bg-blue-600 text-white hover:bg-blue-800 font-bold py-3 px-4 rounded cta"
             target="_blank"
           >
             Buy on Tensor
